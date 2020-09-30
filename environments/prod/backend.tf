@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "nuestro-taser-tfstate"
     prefix = "env/prod"
   }
 }
